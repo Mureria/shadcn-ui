@@ -175,13 +175,17 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             <div className="p-2 hover:bg-[#242424] rounded-md">
+              <Link to='https://github.com/Mureria/shadcn-ui' target="_blank">
               <FaGithub size={18} />
+              </Link>
             </div>
             <div className="p-2 hover:bg-[#242424] rounded-md">
+              <Link to='https://twitter.com/chosenireri42' target="_blank">
               <RiTwitterXFill size={14} />
+              </Link>
             </div>
             <div className="p-2 hover:bg-[#242424] rounded-md">
-              <MdOutlineDarkMode size={19} />
+              <MdOutlineDarkMode  size={19} />
             </div>
           </div>
         </div>
